@@ -1,5 +1,5 @@
 # Interactive-Guest-Book
-Interactive Guest Book --- Topics Covered (Do While, Switch Case, Try - Catch - Finally, List, Stream, Iterator, Scanner )
+Interactive Guest Book --- Topics Covered (Do While, Switch Case, Try - Catch - Finally, List, Stream, Iterator, Scanner,Package )
 We need to build a interactive GuestBook, which stores Guests
 Guest will look like
 Guest {
