@@ -31,9 +31,8 @@ public class MyGuestRun {
 
                     System.out.println("Please enter Guest following values");
                     System.out.print("Enter Name: ");
+                    String a = sc.nextLine();
                     String s = sc.nextLine();
-                    String s6 = "prakash";
-                    System.out.println();
                     System.out.print("Enter Phone Number: ");
                     String Phone = sc.nextLine();
                     System.out.print("Enter age: ");
@@ -41,8 +40,8 @@ public class MyGuestRun {
                     System.out.print("Enter ID: ");
                     int ID = Integer.parseInt(sc.nextLine());
 
-                    String s5 = s6 + Phone;
-                    Guest firstGuest1 = new Guest(ID, s5, Phone, age);
+
+                    Guest firstGuest1 = new Guest(ID, s, Phone, age);
                     try {
                         myGuest.addGuest(firstGuest1);
 
